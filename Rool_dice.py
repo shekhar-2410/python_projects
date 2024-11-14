@@ -3,8 +3,8 @@ import random
 
 
 def roll_dice():
-    roll_dice = input("Roll the dice (y/n): ")
-    if roll_dice == "y" and roll_dice == "n":
+    roll_dice = input("Roll the dice (y/n): ").lower()
+    if roll_dice == "y"  and roll_dice == "n":
 
         while True:
             dice1 = random.randint(1, 6)
